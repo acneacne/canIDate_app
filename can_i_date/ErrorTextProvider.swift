@@ -9,7 +9,7 @@
 import GameKit
 
 struct ErrorTextProvider {
-    let messages = ["Please enter some ages values", "C'mon, type the ages", "Step 1: Ages Step 2: Heart", "Ages, ages, ages", "Enter ages and touch the heart"]
+    let messages = ["Please enter some ages values", "Come on, type the ages", "Step 1: Ages. Step 2: Heart", "Ages, ages, ages", "Enter ages and touch the heart","The instructions are easy: Enter ages", "Not so fast. First enter the ages","Ouch!"]
     
     func randomMessage() -> String{
         
@@ -19,3 +19,6 @@ struct ErrorTextProvider {
         
     }
 }
+
+
+
