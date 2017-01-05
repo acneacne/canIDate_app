@@ -86,20 +86,47 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }else if me_age == other_age{
                 date_textField.text = "You definetly should date"
             }else if other_age < me_age_min {
+<<<<<<< HEAD
                 switch other_age{
                 case 15...18:
                     date_textField.text = "This is a bad idea"
                 case 10...14:
                     date_textField.text = "I think you are not human"
+=======
+                switch other_age {
+                case 20...29:
+                    date_textField.text = "You are older and the data says: NO!"
+                case 30...39:
+                    date_textField.text = "This is some kind of fetish right?"
+                case 40...60:
+                    date_textField.text = "Psycho"
+>>>>>>> 7673a1f4d09c0ce8df2c4b7ad10a3ca125799f63
                 default:
                     date_textField.text = "To young for you"
                 }
                 print (me_age_min)
+<<<<<<< HEAD
                 
+=======
+>>>>>>> 7673a1f4d09c0ce8df2c4b7ad10a3ca125799f63
             } // Case 3: Person is young and can't date older:
             else if other_age > me_age_max {
                 print ((me_age - 7) * 2 )
-                date_textField.text = "To old for you"
+                switch other_age {
+                case 40...49:
+                    date_textField.text = "Really old one you wanna date"
+                case 50...59:
+                    date_textField.text = "The data say: RUN!"
+                case 60...69:
+                    date_textField.text = "Dusty"
+                case 70...79:
+                    date_textField.text = "Sooo old. Adorable"
+                case 80...90:
+                    date_textField.text = "Freak"
+                default:
+                    date_textField.text = "To old for you"
+                }
+                
             } // Case 4: Both people are the same age:
             else{
                 date_textField.text = "Yes, you can date. "
@@ -128,8 +155,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             //date_textField.text
             print("Working")
             
-            
-            
         }
         
         self.view.endEditing(true)
@@ -151,3 +176,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
 }
 
 
+///: END
