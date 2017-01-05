@@ -56,6 +56,36 @@ struct BackgroundColorProvider {
         ,UIColor(red: 0/255.0, green: 148/255.0, blue: 153/255.0, alpha: 1.0)
         ,UIColor(red: 95/255.0, green: 114/255.0, blue: 120/255.0, alpha: 1.0)
         ,UIColor(red: 138/255.0, green: 154/255.0, blue: 154/255.0, alpha: 1.0)//
+        ,UIColor(red: 128/255.0, green: 115/255.0, blue: 150/255.0, alpha: 1.0)
+        ,UIColor(red: 184/255.0, green: 138/255.0, blue: 172/255.0, alpha: 1.0)
+        ,UIColor(red: 211/255.0, green: 127/255.0, blue: 111/255.0, alpha: 1.0)
+        ,UIColor(red: 218/255.0, green: 185/255.0, blue: 101/255.0, alpha: 1.0)
+        ,UIColor(red: 139/255.0, green: 111/255.0, blue: 112/255.0, alpha: 1.0)
+        ,UIColor(red: 174/255.0, green: 140/255.0, blue: 142/255.0, alpha: 1.0)
+        ,UIColor(red: 239/255.0, green: 224/255.0, blue: 205/255, alpha: 1.0)//
+        ,UIColor(red: 151/255.0, green: 60/255.0, blue: 108/255.0, alpha: 1.0)
+        ,UIColor(red: 244/255.0, green: 85/255.0, blue: 32/255.0, alpha: 1.0)
+        ,UIColor(red: 71/255.0, green: 36/255.0, blue: 59/255.0, alpha: 1.0)
+        ,UIColor(red: 125/255.0, green: 32/255.0, blue: 39/255.0, alpha: 1.0)
+        ,UIColor(red: 206/255.0, green: 49/255.0, blue: 117/255.0, alpha: 1.0)
+        ,UIColor(red: 185/255.0, green: 18/255.0, blue: 40/255.0, alpha: 1.0)
+        ,UIColor(red: 101/255.0, green: 102/255.0, blue: 63/255.0, alpha: 1.0)
+        ,UIColor(red: 221/255.0, green: 182/255.0, blue: 20/255.0, alpha: 1.0)//
+        ,UIColor(red: 137/255.0, green: 117/255.0, blue: 96/255.0, alpha: 1.0)
+        ,UIColor(red: 177/255.0, green: 131/255.0, blue: 47/255.0, alpha: 1.0)
+        ,UIColor(red: 199/255.0, green: 187/255.0, blue: 164/255.0, alpha: 1.0)
+        ,UIColor(red: 131/255.0, green: 132/255.0, blue: 135/255.0, alpha: 1.0)
+        ,UIColor(red: 190/255.0, green: 69/255.0, blue: 79/255.0, alpha: 1.0)
+        ,UIColor(red: 73/255.0, green: 73/255.0, blue: 77/255.0, alpha: 1.0)
+        ,UIColor(red: 232/255.0, green: 227/255.0, blue: 217/255.0, alpha: 1.0)//
+        ,UIColor(red: 212/255.0, green: 202/255.0, blue: 205/255.0, alpha: 1.0)
+        ,UIColor(red: 193/255.0, green: 206/255.0, blue: 193/255.0, alpha: 1.0)
+        ,UIColor(red: 238/255.0, green: 160/255.0, blue: 166/255.0, alpha: 1.0)
+        ,UIColor(red: 211/255.0, green: 222/255.0, blue: 223/255.0, alpha: 1.0)
+        ,UIColor(red: 227/255.0, green: 234/255.0, blue: 165/255.0, alpha: 1.0)
+        ,UIColor(red: 178/255.0, green: 231/255.0, blue: 159/255.0, alpha: 1.0)
+        ,UIColor(red: 173/255.0, green: 163/255.0, blue: 150/255.0, alpha: 1.0)//
+        ,UIColor(red: 77/255.0, green: 77/255.0, blue: 77/255.0, alpha: 1.0)
         
     ]
     
