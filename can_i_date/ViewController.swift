@@ -72,6 +72,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 default:
                     date_textField.text = "Don't date an under-age"
                 }
+            
                 
             }// Case 2: Person is older and cant´date younger:
             else if me_age < 18 && other_age > 18{
@@ -79,20 +80,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 case 7...10:
                     date_textField.text = "You are so cute and so young"
                 case 10...14:
-                    date_textField.text = "You have feeling but no the age"
+                    date_textField.text = "You have feelings but not the age"
                 default:
                     date_textField.text = "You are under age"
                 }
             }else if me_age == other_age{
                 date_textField.text = "You definetly should date"
             }else if other_age < me_age_min {
-<<<<<<< HEAD
+//<<<<<<< HEAD
                 switch other_age{
                 case 15...18:
                     date_textField.text = "This is a bad idea"
                 case 10...14:
                     date_textField.text = "I think you are not human"
-=======
+                default:
+                    date_textField.text = "Bad idea"
+//=======       
+                }
                 switch other_age {
                 case 20...29:
                     date_textField.text = "You are older and the data says: NO!"
@@ -100,31 +104,26 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     date_textField.text = "This is some kind of fetish right?"
                 case 40...60:
                     date_textField.text = "Psycho"
->>>>>>> 7673a1f4d09c0ce8df2c4b7ad10a3ca125799f63
+//>>>>>>> 7673a1f4d09c0ce8df2c4b7ad10a3ca125799f63
                 default:
-                    date_textField.text = "To young for you"
+                    date_textField.text = "Too young for you"
                 }
-                print (me_age_min)
-<<<<<<< HEAD
-                
-=======
->>>>>>> 7673a1f4d09c0ce8df2c4b7ad10a3ca125799f63
             } // Case 3: Person is young and can't date older:
             else if other_age > me_age_max {
                 print ((me_age - 7) * 2 )
                 switch other_age {
                 case 40...49:
-                    date_textField.text = "Really old one you wanna date"
+                    date_textField.text = "You wanna date a really old one"
                 case 50...59:
                     date_textField.text = "The data say: RUN!"
                 case 60...69:
                     date_textField.text = "Dusty"
                 case 70...79:
-                    date_textField.text = "Sooo old. Adorable"
+                    date_textField.text = "So old. So adorable"
                 case 80...90:
                     date_textField.text = "Freak"
                 default:
-                    date_textField.text = "To old for you"
+                    date_textField.text = "Too old for you"
                 }
                 
             } // Case 4: Both people are the same age:
