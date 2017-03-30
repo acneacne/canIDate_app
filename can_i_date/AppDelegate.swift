@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         //: LaunchScreen appears for 3 seconds.
         sleep(2)
-        
+        FIRApp.configure()
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-6109983088094505~4075182876");
         return true
     }
 

@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var bannerView: GADBannerView!
+    
+    
     @IBOutlet var age_1: UITextField!
     @IBOutlet var age_2: UITextField!
     @IBOutlet var emoji_button: UIButton!
@@ -24,6 +28,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         let freshRandom = colorProvider.randomColor()
+        
+        let request = GADRequest();
+        request.testDevices = [kGADSimulatorID]
+        
+        bannerView.adUnitID = "ca-app-pub-6109983088094505/7028649271";
+        bannerView.rootViewController = self;
+        bannerView.load(request)
         
         view.backgroundColor = freshRandom
     }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D17a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E175b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -66,11 +66,30 @@
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ANK-1I-WIR">
+                                <rect key="frame" x="61" y="610" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F82-UB-7m2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtL-b3-81r" customClass="GADBannerView">
+                                <rect key="frame" x="27" y="617" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XD1-yu-uoE"/>
+                                    <constraint firstAttribute="width" constant="320" id="d8g-Cp-cud"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.78516496759542731" green="0.9391736187112576" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="roa-4w-RbN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-140" id="CDi-Tn-nXe"/>
                             <constraint firstItem="6YQ-sU-Ag6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="Kvs-Jr-U70"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TtL-b3-81r" secondAttribute="bottom" id="MuR-ub-CIX"/>
+                            <constraint firstItem="TtL-b3-81r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Upz-hj-wAO"/>
                             <constraint firstItem="roa-4w-RbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="deN-2U-1iP"/>
                             <constraint firstItem="roa-4w-RbN" firstAttribute="centerX" secondItem="6YQ-sU-Ag6" secondAttribute="centerX" id="pdo-nx-U8z"/>
                             <constraint firstItem="roa-4w-RbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vH9-47-UnW"/>
@@ -80,13 +99,14 @@
                     <connections>
                         <outlet property="age_1" destination="yeY-QF-qhX" id="apV-jY-o3W"/>
                         <outlet property="age_2" destination="frw-0i-jvk" id="CtQ-DD-eBS"/>
+                        <outlet property="bannerView" destination="TtL-b3-81r" id="XXm-xB-rJ1"/>
                         <outlet property="date_textField" destination="TaK-e9-A2z" id="qad-6Z-D6E"/>
                         <outlet property="emoji_button" destination="igH-qj-1tb" id="jRh-rj-QGG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+            <point key="canvasLocation" x="133.59999999999999" y="138.0809595202399"/>
         </scene>
     </scenes>
     <resources>
